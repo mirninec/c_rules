@@ -29,7 +29,8 @@ touch newmod.c newmod.h
 
 #endif
 
-#define _(STR) (SRT)  // макрос интернационализации
+#define _(STR) gettext (SRT)  // макрос интернационализации
+#define N_(STR) (STR)
 
 ```
 </pre>
